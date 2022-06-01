@@ -1,0 +1,343 @@
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+
+/* Header nav */
+
+header{
+    margin-top: 30px;
+}
+
+.logo p{
+    display: inline-block;
+    font-weight: 700;
+    margin: 0px 40px;
+}
+header ul li{
+    display: inline-block;
+    
+}
+header ul{
+    word-spacing: 30px;
+    text-align: center;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+header ul li a:hover{
+    color: #548776;
+}
+
+
+
+.btnsup{
+    filter: invert(100%);
+    display: inline-block;
+    border: solid 1px #AB7889;
+    background-color: #AB7889;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    padding: 5px ;
+    border-radius: 50%;
+}
+
+
+/* Ppal Body */
+
+.principal{
+    border: solid 1px #f7f8f3;
+    border-radius: 5% ;
+    background-color: #f7f8f3 ;
+    width: 1200px;
+    height: 1000px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 5%;
+
+
+}
+.principal h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 80px;
+    align-items: center;
+    word-spacing: 10px;
+
+}
+
+.principal p{
+    margin-top: 40px;
+    word-spacing: 3px;
+    font-weight: 400;
+}
+.buttons{
+
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.button{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #548776;
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    height: 70px;
+
+}
+.button:hover{
+    color: #548776 ;
+    background-color: #f7f8f3;
+    border: solid 2px #548776;
+
+}
+
+#or{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+input{
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.images{
+    display: inline-block;
+    
+}
+
+
+#image1{
+    margin-top: 5px;
+    width: 250px;
+    height: 250px;
+    border: solid 5px #444444;
+    border-radius: 50%;
+  
+}
+
+#image2{
+    margin-top: 500px;
+    width: 250px;
+    height: 250px;
+    border: solid 5px #444444;
+    border-radius: 50%;
+    
+}
+
+/* Second Section*/
+
+.secondcont{
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.secondcont h3{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.secondrow{
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+._2ndicon{
+    background: #f7f8f3;
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+
+/* Third Section*/
+
+.tirth{
+    background-color: #EBF7F3 ;
+}
+.tirth h3{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+.tirth p{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.hrefthirth{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 50px;
+    border: solid 1px #8C9693;
+    width: 100px;
+    text-align: center;
+    border-radius: 12px;
+    color: #8C9693;
+    margin-top: 20px;
+}
+.hrefthirth:hover{
+    color: white;
+    background-color: #548776;
+    border: none;
+}
+
+.card{
+    margin-top: 120px;
+    background-color: #F7F8F3;
+    width: 300px;
+    height: 300px;
+}
+
+.card h4{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buttonc{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1px;
+    text-decoration: none;
+    background-color: #548776;
+    border-radius: 50px;
+    color: white;
+    width: 165px;
+    height: 50px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+
+
+}
+.buttonc:hover{
+    color: #548776 ;
+    background-color: #F7F8F3;
+    border: solid 2px #548776;
+
+}
+    
+
+.foodimg{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 30px;
+    top: -125px;
+    margin: 0px;
+    padding: 0px;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+    box-shadow: 1px 1px white;
+    border-radius: 50%;
+}
+#hrefend{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 52px;
+    padding-top: 13px;
+    border-radius: 25px;
+}
+
+/*endcontainer*/
+
+.cardend{
+    padding-top: 20px;
+    border-radius: 12px;
+    width: 1025px;
+    height: 336px;
+    background-image: url(../images/cardend.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position-y: -120px;
+    text-align: center;
+}
+.cardend h2{
+    font-weight: 900;
+    color: white;
+    margin-top: 70px;
+}
+
+.cardend a{
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    color: white;
+    background: #548776;
+    width: 110px ;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.menubottom{
+    padding-left: 50px;
+    margin-top: 30px;
+    background: #E7E8DE ;
+    border-radius: 12px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #212529;
+
+}
+.menubottom img{
+    padding: 2px;
+    width: 30px;
+    border-radius: 50%;
+    background: white;
+}
+
+.menubottom h3{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.menubottom h4{
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.menubottom ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.menubottom li{
+    margin-top: 10px;
+}
+.footer{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.footer img{
+    display: inline-block;
+    width: 38px;
+}
